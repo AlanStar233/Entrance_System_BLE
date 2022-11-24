@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Entrance_System_BLE" targetName="Production" />
+      <config projectName="Entrance_System_BLE" targetName="Z_DUMMY_TARGET" />
+      <config projectName="Entrance_System_BLE" targetName="Debug" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="uno" ENABLED="true" CONFIG_NAME="uno" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7fe70ecb-b879-4a97-83b8-5fcb7e433624" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ANL/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ANL/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ANL/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ANL/src/main/java/com/alanstar/anl/ANL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ANL/src/main/java/com/alanstar/anl/client/ANLClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ANL/src/main/java/com/alanstar/anl/item/ANLFoodComponents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ANL/src/main/resources/ANL.mixins.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ANL/src/main/resources/assets/anl/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ANL/src/main/resources/assets/anl/lang/en_us.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ANL/src/main/resources/assets/anl/lang/zh_cn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ANL/src/main/resources/assets/anl/models/item/chocolate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ANL/src/main/resources/assets/anl/textures/item/chocolate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ANL/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AlanTestMod-1.18/src/main/resources/assets/modid/models/item/test_item.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AlanTestMod-1.18/src/main/resources/assets/modid/textures/item/test_item.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/.idea/EmergencyIM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Django Project/My_Project/.idea/My_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clock_Interrupt/.idea/Clock_Interrupt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM-Proteus/10-1MTOM.pdsprj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM-Proteus/10-1MTOM.pdsprj.ROG-STRIX-ALAN.AlanStar.workspace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM-Proteus/Project Backups/10-1MTOM [20221121, 09-12-43].pdsprj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM-Proteus/Project Backups/10-1MTOM [20221121, 09-13-02].pdsprj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM-Proteus/Project Backups/10-1MTOM [20221121, 09-14-42].pdsprj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM-Proteus/Project Backups/10-1MTOM [Proteus 8.6].pdsprj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/.cproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/.mxproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/DMA_MtoM.ioc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Device/ST/STM32F1xx/License.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/cmsis_armcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/cmsis_armclang.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/cmsis_compiler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/cmsis_gcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/cmsis_iccarm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/cmsis_version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/core_armv8mbl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/core_armv8mml.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/core_cm0.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/core_cm0plus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/core_cm1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/core_cm23.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/core_cm3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/core_cm33.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/core_cm4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/core_cm7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/core_sc000.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/core_sc300.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/mpu_armv7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/mpu_armv8.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/Include/tz_context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/CMSIS/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/License.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Inc/dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Inc/gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Inc/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Inc/stm32f1xx_hal_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Inc/stm32f1xx_it.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Inc/usart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/STM32F103R6TX_FLASH.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Src/dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Src/gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Src/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Src/stm32f1xx_hal_msp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Src/stm32f1xx_it.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Src/syscalls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Src/sysmem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Src/system_stm32f1xx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Src/usart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoM/Startup/startup_stm32f103r6tx.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoP-Proteus/10-1MTOM.pdsprj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoP-Proteus/Project Backups/10-1MTOM [20221121, 09-35-44].pdsprj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoP-Proteus/Project Backups/10-1MTOM [20221121, 09-42-50].pdsprj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoP/.idea/DMA_MtoP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoP/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoP/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoP/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoP/Core/Inc/retarget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMA_MtoP/Core/Src/retarget.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Entrance_System_BLE.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeListsPrivate.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-86008a872249211c32c6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-8e13c4704423d42c270e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ce9262ab4852092f8756.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-22T13-39-39-0652.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Debug-Debug-10255051cea920044ced.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Production-Debug-59dee6b3be6979191108.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Z_DUMMY_TARGET-Debug-4ac610430d9ffb35e131.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-13ff17e2b62c95e5510f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Adafruit_Fingerprint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Adafruit_Fingerprint.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platformio.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeyBoard/.idea/KeyBoard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeyBoard/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeyBoard/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeyInterrupt/.idea/KeyInterrupt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeyInterrupt_Shine/.idea/KeyInterrupt_Shine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeyLED_GPIO_Interrupt/.idea/KeyLED_GPIO_Interrupt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeyLED_GPIO_Rolling/.idea/KeyLED_GPIO_Rolling.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LED_Control/.idea/LED_Control.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MultiLED/.idea/MultiLED.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MultiLED/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MultiLED/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MultiLED_Interrupt/.idea/MultiLED_Interrupt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MultiLED_Interrupt/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MultiLED_Interrupt/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MultiLED_Interrupt/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MultiLED_Interrupt/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Timer_Button_Counter/.idea/Timer_Button_Counter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Timer_PWM/.idea/Timer_PWM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Timer_PWM/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Timer_PWM/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Timer_PWM/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Timer_PWM/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Timer_PWM/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Timer_UART/.idea/Timer_UART.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Timer_UART/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Timer_UART/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UART_DataTrans/.idea/UART_DataTrans.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UART_Interrupt/.idea/UART_Interrupt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UART_Interrupt/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UART_Interrupt/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UART_Rolling/.idea/UART_Rolling.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UART_Rolling/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UART_Rolling/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Go Project/res/hello.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Project/HelloJava/src/com/hellojava/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Project/HelloJava/src/com/hellojava/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Project/HelloJava/src/com/hellojava/String_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Jupyter/Bilibili_Data/.idea/Bilibili_Data.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/Hello_Spring/src/main/java/com/alanstar/hello_spring/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/Hello_Spring/src/test/java/com/alanstar/hello_spring/ControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/java/com/alanstar/view_project/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/java/com/alanstar/view_project/config/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/java/com/alanstar/view_project/config/MyLocalResovel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/java/com/alanstar/view_project/config/MyMVCconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/java/com/alanstar/view_project/config/ServletConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/java/com/alanstar/view_project/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/java/com/alanstar/view_project/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/java/com/alanstar/view_project/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/java/com/alanstar/view_project/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/java/com/alanstar/view_project/servletComponent/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/java/com/alanstar/view_project/servletComponent/MyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/java/com/alanstar/view_project/servletComponent/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/resources/i18n/login.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/resources/i18n/login_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/resources/static/login/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/resources/static/login/css/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/resources/static/login/img/login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/resources/static/login/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/resources/templates/download.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/resources/templates/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring_Project/View_Project/src/main/resources/templates/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodejs_test/.idea/nodejs_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/BiliInfo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android_Project/BiliInfo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/BiliInfo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android_Project/BiliInfo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/.github/workflows/android.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/release/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/androidTest/java/com/alanstar/emergencyim/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/java/com/alanstar/emergencyim/FragAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/java/com/alanstar/emergencyim/GroupChat_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/java/com/alanstar/emergencyim/GroupChat_ListAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/java/com/alanstar/emergencyim/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/java/com/alanstar/emergencyim/Settings_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/java/com/alanstar/emergencyim/SingleChat_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/java/com/alanstar/emergencyim/Splash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/color/bottombar_select_style.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/drawable/chat_item_default_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/drawable/chat_item_default_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/drawable/dophin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/drawable/down_arrow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/drawable/group_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/drawable/help_sound.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/drawable/right_arrow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/drawable/settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/drawable/single_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/drawable/start_server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/drawable/wifi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/layout/activity_splash.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/layout/chat_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/layout/fragment_group_chat_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/layout/fragment_settings_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/layout/fragment_single_chat_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/layout/groupchat_children_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/layout/groupchat_parent_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/menu/main_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/menu/navigation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/app/src/test/java/com/alanstar/emergencyim/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/EmergencyIM/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android_Project/FlashBang/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android_Project/FlashBang/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/.vs/Hello Cs graphic/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/.vs/Hello Cs graphic/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/bin/Debug/Hello Cs graphic.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/bin/Debug/Hello Cs graphic.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/bin/Debug/Hello Cs graphic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/bin/Debug/Hello Cs graphic.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/bin/Debug/zh-CN/Hello Cs graphic.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/bin/Debug/zh-CN/Hello Cs graphic.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/obj/Debug/Hello Cs graphic.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/obj/Debug/Hello Cs graphic.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/obj/Debug/Hello Cs graphic.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/obj/Debug/Hello Cs graphic.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/obj/Debug/Hello Cs graphic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/obj/Debug/Hello Cs graphic.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/obj/Debug/zh-CN/Hello Cs graphic.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../C# Project/Hello Cs graphic/Hello Cs graphic/obj/Debug/zh-CN/Hello Cs graphic.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Go Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Go Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Go Project/main/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../Go Project/main/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java Project/HelloJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Project/HelloJava/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/alannewmod/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/alannewmod/CREDITS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/alannewmod/LICENSE-Paulscode IBXM Library.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/alannewmod/LICENSE-Paulscode SoundSystem CodecIBXM.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/alannewmod/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/alannewmod/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/alannewmod/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/alannewmod/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/alannewmod/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/alannewmod/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/alannewmod/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/alannewmod/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/alannewmod/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/alannewmod/src/main/java/com/example/examplemod/ExampleMod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/alannewmod/src/main/resources/mcmod.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/alannewmod/src/main/resources/pack.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/forge-1.12.2-14.23.5.2859-mdk/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/forge-1.12.2-14.23.5.2859-mdk/CREDITS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/forge-1.12.2-14.23.5.2859-mdk/LICENSE-Paulscode IBXM Library.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/forge-1.12.2-14.23.5.2859-mdk/LICENSE-Paulscode SoundSystem CodecIBXM.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/forge-1.12.2-14.23.5.2859-mdk/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/forge-1.12.2-14.23.5.2859-mdk/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/forge-1.12.2-14.23.5.2859-mdk/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/forge-1.12.2-14.23.5.2859-mdk/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/forge-1.12.2-14.23.5.2859-mdk/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/forge-1.12.2-14.23.5.2859-mdk/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/forge-1.12.2-14.23.5.2859-mdk/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/forge-1.12.2-14.23.5.2859-mdk/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/forge-1.12.2-14.23.5.2859-mdk/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/forge-1.12.2-14.23.5.2859-mdk/src/main/java/com/example/examplemod/ExampleMod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/forge-1.12.2-14.23.5.2859-mdk/src/main/resources/mcmod.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Minecraft_Mod/forge-1.12.2-14.23.5.2859-mdk/src/main/resources/pack.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bilibili-OA" beforeDir="false" afterPath="$PROJECT_DIR$/../../bilibili-OA" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+    <option name="clangWarnings" value="-Wno-unused-variable,-Wno-infinite-recursion,-Wno-array-bounds,-Werror=implicit-function-declaration,-Wshadow,-Wno-shadow-field-in-constructor-modified,-Wno-shadow-ivar,-Wuninitialized,-Wunused-label,-Wunused-lambda-capture,-Wno-writable-strings" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:uno" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.4" />
+  </component>
+  <component name="ProjectId" id="2Hu9yaGW4mnNlWTaCXB0jy8pysC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "D:/code/Embedded_System/Entrance_System_BLE/lib",
+    "settings.editor.selected.configurable": "clion.platformio.config"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\Embedded_System\Entrance_System_BLE\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\Embedded_System\Entrance_System_BLE\lib" />
+      <recent name="D:\code\Embedded_System\Entrance_System_BLE\include" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PlatformIO.PlatformIO 上传">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DUMMY_TARGET" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Entrance_System_BLE" TARGET_NAME="Z_DUMMY_TARGET" CONFIG_NAME="uno" RUN_TARGET_PROJECT_NAME="Entrance_System_BLE" RUN_TARGET_NAME="Z_DUMMY_TARGET">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlatformIO 上传" type="platformio" factoryName="PlatformIO Upload" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Entrance_System_BLE" TARGET_NAME="Production" CONFIG_NAME="uno" RUN_TARGET_PROJECT_NAME="Entrance_System_BLE" RUN_TARGET_NAME="Production">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlatformIO 调试" type="platformio" factoryName="PlatformIO Debug" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Entrance_System_BLE" TARGET_NAME="Debug" CONFIG_NAME="uno" RUN_TARGET_PROJECT_NAME="Entrance_System_BLE" RUN_TARGET_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.Z_DUMMY_TARGET" />
+      <item itemvalue="PlatformIO.PlatformIO 上传" />
+      <item itemvalue="PlatformIO.PlatformIO 调试" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="7fe70ecb-b879-4a97-83b8-5fcb7e433624" name="变更" comment="" />
+      <created>1669124359833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669124359833</updated>
+      <workItem from="1669124360959" duration="1618000" />
+      <workItem from="1669162955944" duration="1729000" />
+      <workItem from="1669191076475" duration="18189000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,136 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/code/Embedded_System/Entrance_System_BLE/cmake-build-uno/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/AlanStar/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe cmTC_76224 && [1/2] Building C object CMakeFiles/cmTC_76224.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+COLLECT_GCC=C:\MinGW\bin\gcc.exe
+Target: mingw32
+Configured with: ../src/gcc-9.2.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-static --enable-shared --enable-threads --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --enable-libgomp --disable-libvtv --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --disable-build-format-warnings --prefix=/mingw --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --enable-nls --with-pkgversion='MinGW.org GCC Build-2'
+Thread model: win32
+gcc version 9.2.0 (MinGW.org GCC Build-2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_76224.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/cc1.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/mingw32/9.2.0/ C:/Users/AlanStar/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_76224.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\AlanStar\AppData\Local\Temp\ccQmoA4j.s
+GNU C17 (MinGW.org GCC Build-2) version 9.2.0 (mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../mingw32/include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include"
+ignoring nonexistent directory "/mingw/include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include-fixed"
+ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/../../../../mingw32/include"
+ignoring nonexistent directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed
+End of search list.
+GNU C17 (MinGW.org GCC Build-2) version 9.2.0 (mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: a3c9f0fbd759fce24f2da2d17091ee0c
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_76224.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_76224.dir/CMakeCCompilerABI.c.obj C:\Users\AlanStar\AppData\Local\Temp\ccQmoA4j.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/9.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_76224.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
+[2/2] Linking C executable cmTC_76224
+Using built-in specs.
+COLLECT_GCC=C:\MinGW\bin\gcc.exe
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../src/gcc-9.2.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-static --enable-shared --enable-threads --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --enable-libgomp --disable-libvtv --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --disable-build-format-warnings --prefix=/mingw --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --enable-nls --with-pkgversion='MinGW.org GCC Build-2'
+Thread model: win32
+gcc version 9.2.0 (MinGW.org GCC Build-2) 
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/9.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_76224.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\AlanStar\AppData\Local\Temp\ccin7ZEt.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_76224.exe c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/9.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/9.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../.. CMakeFiles/cmTC_76224.dir/CMakeCCompilerABI.c.obj -lmingw32 -lmingwex -lmingw32 -lmingwex -lgcc -lgcc_eh -lmoldname -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lmingwex -lmingw32 -lmingwex -lgcc -lgcc_eh -lmoldname -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/9.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_76224.exe' '-mtune=generic' '-march=i586'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  'D:/code/Embedded_System/Entrance_System_BLE/cmake-build-uno/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin'
+Unable to find the executable at any of:
+  D:/code/Embedded_System/Entrance_System_BLE/cmake-build-uno/CMakeFiles/CMakeTmp/cmTC_76224
+  D:/code/Embedded_System/Entrance_System_BLE/cmake-build-uno/CMakeFiles/CMakeTmp/Debug/cmTC_76224
+  D:/code/Embedded_System/Entrance_System_BLE/cmake-build-uno/CMakeFiles/CMakeTmp/Development/cmTC_76224
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: D:/code/Embedded_System/Entrance_System_BLE/cmake-build-uno/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/AlanStar/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe cmTC_f0ff3 && [1/2] Building CXX object CMakeFiles/cmTC_f0ff3.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+COLLECT_GCC=C:\MinGW\bin\c++.exe
+Target: mingw32
+Configured with: ../src/gcc-9.2.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-static --enable-shared --enable-threads --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --enable-libgomp --disable-libvtv --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --disable-build-format-warnings --prefix=/mingw --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --enable-nls --with-pkgversion='MinGW.org GCC Build-2'
+Thread model: win32
+gcc version 9.2.0 (MinGW.org GCC Build-2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f0ff3.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/cc1plus.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/mingw32/9.2.0/ C:/Users/AlanStar/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_f0ff3.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\AlanStar\AppData\Local\Temp\ccsSN7oM.s
+GNU C++14 (MinGW.org GCC Build-2) version 9.2.0 (mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../mingw32/include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include/c++"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include/c++/mingw32"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include/c++/backward"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include"
+ignoring nonexistent directory "/mingw/include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include-fixed"
+ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/../../../../mingw32/include"
+ignoring nonexistent directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed
+End of search list.
+GNU C++14 (MinGW.org GCC Build-2) version 9.2.0 (mingw32)
+	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: cb31672760a9c1b42d1ddb86616116cd
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f0ff3.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_f0ff3.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\AlanStar\AppData\Local\Temp\ccsSN7oM.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/9.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f0ff3.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+[2/2] Linking CXX executable cmTC_f0ff3
+Using built-in specs.
+COLLECT_GCC=C:\MinGW\bin\c++.exe
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../src/gcc-9.2.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-static --enable-shared --enable-threads --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --enable-libgomp --disable-libvtv --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --disable-build-format-warnings --prefix=/mingw --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --enable-nls --with-pkgversion='MinGW.org GCC Build-2'
+Thread model: win32
+gcc version 9.2.0 (MinGW.org GCC Build-2) 
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/9.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0ff3.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\AlanStar\AppData\Local\Temp\cc6ouffW.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_f0ff3.exe c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/9.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/9.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../.. CMakeFiles/cmTC_f0ff3.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lmingw32 -lmingwex -lmingw32 -lmingwex -lgcc_s -lgcc -lmoldname -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lmingwex -lmingw32 -lmingwex -lgcc_s -lgcc -lmoldname -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/9.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0ff3.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  'D:/code/Embedded_System/Entrance_System_BLE/cmake-build-uno/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin'
+Unable to find the executable at any of:
+  D:/code/Embedded_System/Entrance_System_BLE/cmake-build-uno/CMakeFiles/CMakeTmp/cmTC_f0ff3
+  D:/code/Embedded_System/Entrance_System_BLE/cmake-build-uno/CMakeFiles/CMakeTmp/Debug/cmTC_f0ff3
+  D:/code/Embedded_System/Entrance_System_BLE/cmake-build-uno/CMakeFiles/CMakeTmp/Development/cmTC_f0ff3
+
+

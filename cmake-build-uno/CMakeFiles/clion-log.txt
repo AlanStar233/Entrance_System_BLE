@@ -1,0 +1,4 @@
+C:\Users\AlanStar\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=uno -DCMAKE_MAKE_PROGRAM=C:/Users/AlanStar/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe -G Ninja -S D:\code\Embedded_System\Entrance_System_BLE -B D:\code\Embedded_System\Entrance_System_BLE\cmake-build-uno
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/code/Embedded_System/Entrance_System_BLE/cmake-build-uno

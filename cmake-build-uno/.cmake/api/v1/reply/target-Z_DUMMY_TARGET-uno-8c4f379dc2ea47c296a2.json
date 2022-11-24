@@ -1,0 +1,2765 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Z_DUMMY_TARGET"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"CMakeListsPrivate.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ARDUINO=10808"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ARDUINO_ARCH_AVR"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ARDUINO_AVR_UNO"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "F_CPU=16000000L"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "PLATFORMIO=60104"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "__AVR_ATmega328P__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "D:/code/Embedded_System/Entrance_System_BLE/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/code/Embedded_System/Entrance_System_BLE/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/AlanStar/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/code/Embedded_System/Entrance_System_BLE/.pio/libdeps/uno/Blinker/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/AlanStar/.platformio/packages/framework-arduino-avr/cores/arduino"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/AlanStar/.platformio/packages/framework-arduino-avr/variants/standard"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/AlanStar/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/AlanStar/.platformio/packages/framework-arduino-avr/libraries/HID/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/AlanStar/.platformio/packages/framework-arduino-avr/libraries/SPI/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/AlanStar/.platformio/packages/framework-arduino-avr/libraries/Wire/src"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "C:/Users/AlanStar/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/Users/AlanStar/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/AlanStar/.platformio/packages/toolchain-atmelavr/avr/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				131,
+				136,
+				138,
+				192,
+				313,
+				315,
+				317,
+				319,
+				321,
+				328,
+				330,
+				333,
+				335,
+				344,
+				350,
+				352,
+				358,
+				360,
+				375,
+				376
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ARDUINO=10808"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ARDUINO_ARCH_AVR"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ARDUINO_AVR_UNO"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "F_CPU=16000000L"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "PLATFORMIO=60104"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "__AVR_ATmega328P__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "D:/code/Embedded_System/Entrance_System_BLE/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/code/Embedded_System/Entrance_System_BLE/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/AlanStar/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/code/Embedded_System/Entrance_System_BLE/.pio/libdeps/uno/Blinker/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/AlanStar/.platformio/packages/framework-arduino-avr/cores/arduino"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/AlanStar/.platformio/packages/framework-arduino-avr/variants/standard"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/AlanStar/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/AlanStar/.platformio/packages/framework-arduino-avr/libraries/HID/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/AlanStar/.platformio/packages/framework-arduino-avr/libraries/SPI/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/AlanStar/.platformio/packages/framework-arduino-avr/libraries/Wire/src"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "C:/Users/AlanStar/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/Users/AlanStar/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/AlanStar/.platformio/packages/toolchain-atmelavr/avr/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				324,
+				338,
+				340,
+				342
+			]
+		}
+	],
+	"id" : "Z_DUMMY_TARGET::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Z_DUMMY_TARGET",
+	"nameOnDisk" : "Z_DUMMY_TARGET",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				131,
+				136,
+				138,
+				192,
+				313,
+				315,
+				317,
+				319,
+				321,
+				324,
+				328,
+				330,
+				333,
+				335,
+				338,
+				340,
+				342,
+				344,
+				350,
+				352,
+				358,
+				360,
+				375,
+				376
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				346,
+				347,
+				348,
+				349,
+				377,
+				378,
+				379,
+				380
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				18,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				132,
+				133,
+				134,
+				135,
+				137,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				314,
+				316,
+				318,
+				320,
+				322,
+				323,
+				325,
+				326,
+				327,
+				329,
+				331,
+				332,
+				334,
+				336,
+				337,
+				339,
+				341,
+				343,
+				345,
+				351,
+				353,
+				354,
+				355,
+				356,
+				357,
+				359,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				381
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Adafruit_Fingerprint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/.gitattributes",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/.gitignore",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/ISSUE_TEMPLATE.md",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/README.md",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/appveyor.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_AT_Firmware/AT_Firmware_WiFi/AT_Firmware_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_ArduinoJson/ArduinoJson_WiFi/ArduinoJson_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Bridge/Bridge_WiFi/Bridge_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Cloud/Blinker_CLOUDDATA/CLOUDDATA_WiFi/CLOUDDATA_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Cloud/Blinker_Coordinate/Coordinate_WiFi/Coordinate_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Cloud/Blinker_DataStorage/Blinker_ConfigData/Blinker_ConfigData.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Cloud/Blinker_DataStorage/Blinker_TextData/Blinker_TextData.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Cloud/Blinker_DataStorage/Blinker_TimeSlotData/Blinker_TimeSlotData.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Cloud/Blinker_GPSData/GPSData_WiFi/GPSData_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Cloud/Blinker_LOG/LOG_WiFi/LOG_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_ESP32_CAM/Blinker_ESP32_CAM.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_ESP32_CAM/ESP32_CAM_SERVER.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Hello/Blinker_HTTP/Blinker_HTTP.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Hello/Hello_BLE/Hello_BLE.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Hello/Hello_WiFi/Hello_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Hello/Hello_WiFi_Without_SSL/Hello_WiFi_Without_SSL.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_MQTT/MQTT_PUB/MQTT_PUB.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_PRO/Blinker_PRO_AIR202/Blinker_PRO_AIR202.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_PRO/Blinker_PRO_Change_Server/Blinker_Pro_Change_Server.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_PRO/Blinker_PRO_ESP/Blinker_PRO_ESP.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_PRO/Blinker_PRO_ESP_APCONFIG/Blinker_PRO_ESP_APCONFIG.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_PRO/Blinker_PRO_Event/Event_Error/Event_Error.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_PRO/Blinker_PRO_Event/Event_Message/Event_Message.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_PRO/Blinker_PRO_Event/Event_Warning/Event_Warning.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_PRO/Blinker_PRO_OTA/OTA_PRO/OTA_PRO.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_PRO/Blinker_PRO_SIM7020/Blinker_PRO_SIM7020.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_PRO/Blinker_PRO_Wlan_Config/Blinker_PRO_Wlan_Config.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_PRO_Device/Blinker_PRO_Plug/Blinker_PRO_Plug.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_RT_DATA/Blinker_RT_DATA.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Sensor/Blinker_BMP180/BMP180_WiFi/BMP180_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Sensor/Blinker_DHT/DHT_BLE/DHT_BLE.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Sensor/Blinker_DHT/DHT_WiFi/DHT_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_AliGenie/AliGenie_AIRCONDITION/AliGenie_AIRCONDITION.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_AliGenie/AliGenie_FAN/AliGenie_FAN.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_AliGenie/AliGenie_LIGHT/AliGenie_LIGHT.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_AliGenie/AliGenie_MULTI_OUTLET/AliGenie_MULTI_OUTLET.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_AliGenie/AliGenie_OUTLET/AliGenie_OUTLET.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_AliGenie/AliGenie_SENSOR/AliGenie_SENSOR.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_DuerOS/DuerOS_AIRCONDITION/DuerOS_AIRCONDITION.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_DuerOS/DuerOS_FAN/DuerOS_FAN.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_DuerOS/DuerOS_LIGHT/DuerOS_LIGHT.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_DuerOS/DuerOS_MULTI_OUTLET/DuerOS_MULTI_OUTLET.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_DuerOS/DuerOS_OUTLET/DuerOS_OUTLET.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_DuerOS/DuerOS_SENSOR/DuerOS_SENSOR.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_MIOT/MIOT_AIRCONDITION/MIOT_AIRCONDITION.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_MIOT/MIOT_FAN/MIOT_FAN.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_MIOT/MIOT_LIGHT/MIOT_LIGHT.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_MIOT/MIOT_MULTI_OUTLET/MIOT_MULTI_OUTLET.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_MIOT/MIOT_OUTLET/MIOT_OUTLET.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Voice_Assistant/Blinker_MIOT/MIOT_SENSOR/MIOT_SENSOR.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Weathers/Blinker_Air/Air_WiFi/Air_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Weathers/Blinker_Weather/Weather_WiFi/Weather_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_WiFi_Config/Blinker_APCONFIG/APCONFIG_WiFi/APCONFIG_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_WiFi_Config/Blinker_APCONFIG_V2/Blinker_APCONFIG_V2.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_WiFi_Config/Blinker_ESPTOUCH/ESPTOUCH_WiFi/ESPTOUCH_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_WiFi_Config/Blinker_Multi_WiFi/Multi_WiFi/Multi_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_AUTO/AUTO_Pro/AUTO_Pro.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_AUTO/AUTO_WiFi/AUTO_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Button/Button_BLE/Button_BLE.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Button/Button_WiFi/Button_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Heartbeat/Heartbeat_BLE/Heartbeat_BLE.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Heartbeat/Heartbeat_WiFi/Heartbeat_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Image/Image_WiFi/Image_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Joystick/Joystick_BLE/Joystick_BLE.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Joystick/Joystick_WiFi/Joystick_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Notify/Notify_BLE/Notify_BLE.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Notify/Notify_WiFi/Notify_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Number/Number_BLE/Number_BLE.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Number/Number_WiFi/Number_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_PUSH/PUSH_WiFi/PUSH_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Print/Print_BLE/Print_BLE.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Print/Print_WiFi/Print_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_RGB/RGB_BLE/RGB_BLE.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_RGB/RGB_WiFi/RGB_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_SMS/SMS_WiFi/SMS_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Slider/Slider_BLE/Slider_BLE.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Slider/Slider_WiFi/Slider_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Summary/Summary_WiFi/Summary_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Switch/Switch_BLE/Switch_BLE.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Switch/Switch_WiFi/Switch_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_TEXT/TEXT_BLE/TEXT_BLE.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_TEXT/TEXT_WiFi/TEXT_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Tab/Tab_WiFi/Tab_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_Time/Time_WiFi/Time_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_WECHAT/WECHAT_WiFi/WECHAT_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_WS2812/WS2812_BLE/WS2812_BLE.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/examples/Blinker_Widgets/Blinker_WS2812/WS2812_WiFi/WS2812_WiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/keywords.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/library.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/library.properties",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerAIR202LP.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerBLE.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerGateway.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerHTTP.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerMQTT.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerMQTTAT.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerMQTTAUTO.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerMQTTLP.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerPRO.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerPROAIR202.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerPROESP.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerPROESP_QRCODE.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerPROSIM7020.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerQRCodeSIM7000.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerQRCodeSIM7020.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerSerial.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerSerialAIR202.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerSerialGPRS.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerSerialMQTT.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerSerialNBIoT.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerSerialSIM7000.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerSerialSIM7020.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerSubDevice.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/BlinkerSubStream.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Adapters/test.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerATMaster.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerApi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerApiBase.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerAuto.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerAutoGateway.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerAutoSubdevice.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerConfig.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerDataTicker.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerDebug.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerDebug.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerMQTTATBase.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerProtocol.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerStream.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerTimer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerTimer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerUtility.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Blinker/BlinkerUtility.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerAssistant.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerESP32BLE.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerESPGateway.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerESPHTTP.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerESPMQTT.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerESPMQTTAT.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerESPMQTTAUTO.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerESPMQTTLP.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerESPPRO.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerESPPROESP.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerESPSubDevice.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerLUATPRO.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerLowPowerGPRS.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerQRCodeSIM7000NBIOT.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerQRCodeSIMNBIOT.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerSIMPRO.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerSerialBLE.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerSerialESPMQTT.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerSerialLUATGPRS.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerSerialSIM7000NBIoT.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerSerialSIMNBIoT.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerSerialWHNBIoT.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerSubDevice.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/BlinkerWidgets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerAIR202.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerAliGenie.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerBridge.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerButton.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerChart.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerDuerOS.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerEvent.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerHTTPAIR202.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerHTTPSIM7000.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerHTTPSIM7020.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerImage.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerJoystick.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerMIOT.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerMQTTAIR202.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerMQTTSIM7000.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerMQTTSIM7020.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerNumber.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerOTA.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerRGB.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerSIM7000.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerSIM7020.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerSlider.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerSwitch.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerTab.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerTable.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerText.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerTicker.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerTimingTimer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerUpdater.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerUpdater.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Functions/BlinkerWlan.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/Server/BlinkerServer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Array/ArrayFunctions.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Array/ArrayImpl.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Array/ArrayIterator.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Array/ArrayRef.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Array/ArrayShortcuts.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Array/ElementProxy.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Array/Utilities.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Collection/CollectionData.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Collection/CollectionImpl.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Configuration.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Deserialization/ArduinoStreamReader.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Deserialization/CharPointerReader.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Deserialization/DeserializationError.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Deserialization/FlashStringReader.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Deserialization/IteratorReader.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Deserialization/NestingLimit.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Deserialization/StdStreamReader.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Deserialization/deserialize.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Document/BasicJsonDocument.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Document/DynamicJsonDocument.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Document/JsonDocument.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Document/StaticJsonDocument.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Json/EscapeSequence.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Json/JsonDeserializer.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Json/JsonSerializer.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Json/PrettyJsonSerializer.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Json/TextFormatter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Json/Utf8.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Memory/Alignment.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Memory/MemoryPool.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Memory/StringBuilder.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Memory/StringSlot.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Misc/SerializedValue.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Misc/Visitable.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/MsgPack/MsgPackDeserializer.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/MsgPack/MsgPackSerializer.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/MsgPack/endianess.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/MsgPack/ieee754.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Namespace.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Numbers/Float.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Numbers/FloatParts.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Numbers/FloatTraits.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Numbers/Integer.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Numbers/convertNumber.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Numbers/parseFloat.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Numbers/parseInteger.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Numbers/parseNumber.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Object/MemberProxy.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Object/ObjectFunctions.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Object/ObjectImpl.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Object/ObjectIterator.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Object/ObjectRef.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Object/ObjectShortcuts.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Object/Pair.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Operators/VariantCasts.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Operators/VariantComparisons.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Operators/VariantOperators.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Operators/VariantOr.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Operators/VariantShortcuts.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/alias_cast.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/assert.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/attributes.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/ctype.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/gsl/not_null.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/limits.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/math.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/mpl/max.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/safe_strcmp.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/type_traits.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/type_traits/conditional.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/type_traits/enable_if.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/type_traits/integral_constant.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/type_traits/is_array.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/type_traits/is_base_of.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/type_traits/is_const.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/type_traits/is_floating_point.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/type_traits/is_integral.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/type_traits/is_same.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/type_traits/is_signed.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/type_traits/is_unsigned.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/type_traits/make_unsigned.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/type_traits/remove_const.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/type_traits/remove_reference.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/type_traits/type_identity.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Polyfills/utility.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Serialization/DummyWriter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Serialization/DynamicStringWriter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Serialization/StaticStringWriter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Serialization/StreamWriter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Serialization/measure.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Serialization/serialize.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/StringStorage/StringCopier.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/StringStorage/StringMover.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/StringStorage/StringStorage.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Strings/ArduinoStringAdapter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Strings/ConstRamStringAdapter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Strings/FlashStringAdapter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Strings/RamStringAdapter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Strings/SizedFlashStringAdapter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Strings/SizedRamStringAdapter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Strings/StlStringAdapter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Strings/String.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Strings/StringAdapters.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Variant/SlotFunctions.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Variant/VariantAs.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Variant/VariantAsImpl.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Variant/VariantContent.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Variant/VariantData.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Variant/VariantFunctions.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Variant/VariantImpl.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Variant/VariantRef.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Variant/VariantSlot.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/Variant/VariantTo.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/compatibility.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ArduinoJson/ArduinoJson/version.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/AsyncTCP/AsyncTCP.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/AsyncTCP/AsyncTCP.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ESPAsyncTCP/AsyncPrinter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ESPAsyncTCP/AsyncPrinter.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ESPAsyncTCP/ESPAsyncTCP.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ESPAsyncTCP/ESPAsyncTCP.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ESPAsyncTCP/ESPAsyncTCPbuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ESPAsyncTCP/ESPAsyncTCPbuffer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ESPAsyncTCP/SyncClient.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ESPAsyncTCP/SyncClient.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ESPAsyncTCP/async_config.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ESPAsyncTCP/tcp_axtls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/ESPAsyncTCP/tcp_axtls.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/TaskScheduler/TaskScheduler.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/TaskScheduler/TaskSchedulerDeclarations.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/WebSockets/SocketIOclient.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/WebSockets/SocketIOclient.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/WebSockets/WebSockets.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/WebSockets/WebSockets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/WebSockets/WebSockets4WebServer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/WebSockets/WebSocketsClient.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/WebSockets/WebSocketsClient.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/WebSockets/WebSocketsServer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/WebSockets/WebSocketsServer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/WebSockets/WebSocketsVersion.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/WebSockets/libb64/cdecode.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/WebSockets/libb64/cdecode_inc.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/WebSockets/libb64/cencode.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/WebSockets/libb64/cencode_inc.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/WebSockets/libsha1/libsha1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/WebSockets/libsha1/libsha1.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/base64/Base64.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/base64/Base64.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/base64/README.markdown",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/base64/examples/base64/base64.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/base64/keywords.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/base64/library.properties",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/mqtt/Adafruit_MQTT.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/mqtt/Adafruit_MQTT.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/mqtt/Adafruit_MQTT_Client.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/mqtt/Adafruit_MQTT_Client.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/mqtt/Adafruit_MQTT_FONA.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/arduino/wifi.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/boost/asynctcp.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessMesh.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessMeshConnection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessMeshConnection.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessMeshSTA.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessMeshSTA.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessmesh/base64.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessmesh/buffer.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessmesh/configuration.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessmesh/layout.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessmesh/logger.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessmesh/mesh.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessmesh/ntp.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessmesh/ota.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessmesh/plugin.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessmesh/protocol.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessmesh/router.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/painlessmesh/tcp.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/plugin/performance.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/scheduler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Blinker/src/modules/painlessMesh/wifi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/test/build.sh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/test/install.sh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Blinker/test/package/package_esp8266com_index.template.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/integrity.dat",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/Adafruit_Fingerprint.h",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}
