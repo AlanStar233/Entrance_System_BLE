@@ -21,14 +21,20 @@
  *  TX -> 1
  */
 
+SoftwareSerial BT(0,1);
+
 int Red_LED = 2;
 int Green_LED = 3;
 int UltraSonic_Trigger = 7;
 int UltraSonic_Echo = 6;
 // 定义超声波运算距离
 float distance;
+
 // 定义 指纹传感器软串口
-SoftwareSerial mySerial(0,1);
+#if (defined(__AVR__) || defined(ESP8266)) && !defined(__AVR_ATmega2560__)
+SoftwareSerial mySerial(8, 9);
+#else
+#endif
 // 实例化 指纹传感器
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&mySerial);
 
@@ -142,44 +148,167 @@ void UltraSonic_LoopBody()
         distance = 0.00;
         Blinker.print("distance", distance, " cm, too Close");
 
-//        Serial.print("Now distance is: ");
-//        Serial.print(distance);
-//        Serial.println(" cm, Maybe you're too close!");
+        Serial.print("Now distance is: ");
+        Serial.print(distance);
+        Serial.println(" cm, Maybe you're too close!");
+
     }
     else if (distance <= 10 && distance >= 0)
     {
         Blinker.print("distance", distance, " cm, can Unlock");
 
-//        Blinker.print("distance", distance, "cm");
-//        Blinker.print("You can Unlock the door!");
+        Serial.print("Now distance is: ");
+        Serial.print(distance);
+        Serial.print(" cm, ");
+        Serial.println("You can Unlock the door!");
+
         LED_LoopBody();
     }
     else
     {
         Blinker.print("distance", distance, " cm");
 
-//        Serial.print("Now distance is: ");
-//        Serial.print(distance);
-//        Serial.println(" cm, Waiting...");
+        Serial.print("Now distance is: ");
+        Serial.print(distance);
+        Serial.println(" cm, Waiting...");
     }
-    delay(500);
+    delay(200);
 }
 
 // Light: 指纹
 void FingerPrint_Init()
 {
-//    finger.begin(115200);   // TODO: 是否冲突存疑
+    finger.begin(57600);   // TODO: 是否冲突存疑
 
     // 指纹传感器存在性检测
-    delay(2000);
+    delay(500);
     if (finger.verifyPassword())
     {
-        Blinker.print("FingerPrint", "Founded!");
+//        Blinker.print("FingerPrint", "Founded!");
+        Serial.println("FingerPrintSensor Founded!");
     }
     else
     {
-        Blinker.print("FingerPrint", "Not Found...");
+//        Blinker.print("FingerPrint", "Not Found...");
+        Serial.println("FingerPrintSensor Not Found!");
     }
+    Serial.println(F("Reading sensor parameters"));
+    finger.getParameters();
+    Serial.print(F("Status: 0x")); Serial.println(finger.status_reg, HEX);
+    Serial.print(F("Sys ID: 0x")); Serial.println(finger.system_id, HEX);
+    Serial.print(F("Capacity: ")); Serial.println(finger.capacity);
+    Serial.print(F("Security level: ")); Serial.println(finger.security_level);
+    Serial.print(F("Device address: ")); Serial.println(finger.device_addr, HEX);
+    Serial.print(F("Packet len: ")); Serial.println(finger.packet_len);
+    Serial.print(F("Baud rate: ")); Serial.println(finger.baud_rate);
+
+    finger.getTemplateCount();
+
+    if (finger.templateCount == 0) {
+        Serial.println("Sensor doesn't contain any fingerprint data. Please run the 'enroll' example.");
+    }
+    else {
+        Serial.println("Waiting for valid finger...");
+        Serial.print("Sensor contains "); Serial.print(finger.templateCount); Serial.println(" templates");
+    }
+}
+
+// Light: 获取指纹 ID
+uint8_t getFingerprintID() {
+    // TODO: 尝试把UltraSonic 塞到这里orz
+    UltraSonic_LoopBody();
+
+    uint8_t p = finger.getImage();
+    switch (p) {
+        case FINGERPRINT_OK:
+            Serial.println("Image taken");
+            break;
+        case FINGERPRINT_NOFINGER:
+            Serial.println("No finger detected");
+            return p;
+        case FINGERPRINT_PACKETRECIEVEERR:
+            Serial.println("Communication error");
+            return p;
+        case FINGERPRINT_IMAGEFAIL:
+            Serial.println("Imaging error");
+            return p;
+        default:
+            Serial.println("Unknown error");
+            return p;
+    }
+
+    // OK success!
+
+    p = finger.image2Tz();
+    switch (p) {
+        case FINGERPRINT_OK:
+            Serial.println("Image converted");
+            break;
+        case FINGERPRINT_IMAGEMESS:
+            Serial.println("Image too messy");
+            return p;
+        case FINGERPRINT_PACKETRECIEVEERR:
+            Serial.println("Communication error");
+            return p;
+        case FINGERPRINT_FEATUREFAIL:
+            Serial.println("Could not find fingerprint features");
+            return p;
+        case FINGERPRINT_INVALIDIMAGE:
+            Serial.println("Could not find fingerprint features");
+            return p;
+        default:
+            Serial.println("Unknown error");
+            return p;
+    }
+
+    // OK converted!
+    p = finger.fingerSearch();
+    if (p == FINGERPRINT_OK) {
+        Serial.println("Found a print match!");
+    } else if (p == FINGERPRINT_PACKETRECIEVEERR) {
+        Serial.println("Communication error");
+        return p;
+    } else if (p == FINGERPRINT_NOTFOUND) {
+        Serial.println("Did not find a match");
+        return p;
+    } else {
+        Serial.println("Unknown error");
+        return p;
+    }
+
+    // found a match!
+    UltraSonic_LoopBody();
+    Serial.print("Found ID #"); Serial.print(finger.fingerID);
+    Serial.print(" with confidence of "); Serial.println(finger.confidence);
+    digitalWrite(Green_LED, HIGH);
+    delay(100);
+    digitalWrite(Green_LED, LOW);
+
+    return finger.fingerID;
+}
+
+// returns -1 if failed, otherwise returns ID #
+//int getFingerprintIDez() {
+//    uint8_t p = finger.getImage();
+//    if (p != FINGERPRINT_OK)  return -1;
+//
+//    p = finger.image2Tz();
+//    if (p != FINGERPRINT_OK)  return -1;
+//
+//    p = finger.fingerFastSearch();
+//    if (p != FINGERPRINT_OK)  return -1;
+//
+//    // found a match!
+//    Serial.print("Found ID #"); Serial.print(finger.fingerID);
+//    Serial.print(" with confidence of "); Serial.println(finger.confidence);
+//    return finger.fingerID;
+//}
+
+void FingerPrint_LoopBody()
+{
+//    UltraSonic_LoopBody();
+    getFingerprintID();
+    delay(100);
 }
 
 void setup()
@@ -190,6 +319,8 @@ void setup()
     Button2.attach(Button2_callback);
     Button3.attach(Button3_callback);
 
+    BT.begin(115200);
+
     LED_Init();
     UltraSonic_Init();
     FingerPrint_Init();
@@ -197,6 +328,11 @@ void setup()
 
 void loop()
 {
+//    if (BT.available())
+//    {
+//        BT.println(BT.read());
+//    }
+    FingerPrint_LoopBody();
     UltraSonic_LoopBody();
     Blinker.run();
 }
