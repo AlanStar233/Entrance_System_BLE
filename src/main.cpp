@@ -19,6 +19,8 @@
  *  == Blinker ==
  *  RX -> 0
  *  TX -> 1
+ *  == BLE ==
+ *  AT -> 5
  */
 
 SoftwareSerial BT(0,1);
@@ -27,6 +29,7 @@ int Red_LED = 2;
 int Green_LED = 3;
 int UltraSonic_Trigger = 7;
 int UltraSonic_Echo = 6;
+int AT = 5;
 // 定义超声波运算距离
 float distance;
 
@@ -311,8 +314,21 @@ void FingerPrint_LoopBody()
     delay(100);
 }
 
+void SoundSensor_LoopBody()
+{
+    int SoundSensorValue = analogRead(A0);
+    Serial.print("Sound Founded: ");
+    Serial.println(SoundSensorValue);
+    delay(200);
+    digitalWrite(Green_LED, HIGH);
+    delay(100);
+    digitalWrite(Green_LED, LOW);
+    delay(100);
+}
+
 void setup()
 {
+//    BLE_Init();
     Blinker.begin(0,1, 115200);
     Blinker.attachData(dataRead);
     Button1.attach(Button1_callback);
@@ -320,6 +336,19 @@ void setup()
     Button3.attach(Button3_callback);
 
     BT.begin(115200);
+
+    // pinMode(AT, OUTPUT);
+    // digitalWrite(AT, HIGH);
+    // Serial.println("AT");
+    // delay(100);
+    // Serial.println("AT+NAME=BLE_Alan");
+    // delay(100);
+    // Serial.println("AT+ROLE=0");    // 从模式
+    // delay(100);
+    // Serial.println("AT+PSWD=2233"); // 配对密码
+    // delay(100);
+    // Serial.println("AT+UART=9600,0,0");
+    // delay(100);
 
     LED_Init();
     UltraSonic_Init();
@@ -334,5 +363,6 @@ void loop()
 //    }
     FingerPrint_LoopBody();
     UltraSonic_LoopBody();
+    SoundSensor_LoopBody();
     Blinker.run();
 }
